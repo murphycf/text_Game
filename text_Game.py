@@ -173,7 +173,7 @@ def main():
 	cheese = True
 	cat = True 
 	mouse = True
-	print("Yo Pavan, you're locked in a room. You must escape to paradise and find Cole!!!!! \n Best of luck solving the puzzles!!!")
+	print("You're locked in a room. You must escape to paradise!!!!! \n Best of luck solving the puzzles!!!")
 	print("------------------------------------------")
 	while isInParadise == False:
 		if room == "entrance":
@@ -188,7 +188,7 @@ def main():
 			(room, cheese, string, cat) = showAttic(room, cheese, string, cat)
 		if room == "bedroom":
 			(room, cheese, string, cat, mouse) = showBedroom(room, cheese, string, cat, mouse)
-	print("You found Cole!!!!!! Welcome to paradise.")
+	print("Welcome to paradise.")
 
 
 main()
